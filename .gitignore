@@ -1,4 +1,3 @@
-# ─── Python ────────────────────────────────────────────────────
 __pycache__/
 *.py[cod]
 *.pyo
@@ -18,32 +17,23 @@ develop-eggs/
 lib/
 lib64/
 
-# ─── Virtual Environment ───────────────────────────────────────
 venv/
 env/
 ENV/
 .venv/
 
-# ─── Environment Variables ─────────────────────────────────────
 backend/.env
 frontend/.env
-# .env.development
-# .env.production
-# .env.local
-# .env.*.local
 *.env
 
-# ─── Flask ─────────────────────────────────────────────────────
 instance/
 .webassets-cache
 flask_session/
 
-# ─── Database ──────────────────────────────────────────────────
 *.db
 *.sqlite
 *.sqlite3
 
-# ─── Node / React ──────────────────────────────────────────────
 node_modules/
 frontend/dist/
 frontend/build/
@@ -53,10 +43,8 @@ yarn-error.log*
 .pnp/
 .pnp.js
 
-# ─── Vite ──────────────────────────────────────────────────────
 frontend/.vite/
 
-# ─── IDE / Editor ──────────────────────────────────────────────
 .vscode/
 .idea/
 *.swp
@@ -65,7 +53,6 @@ frontend/.vite/
 *.sublime-workspace
 .history/
 
-# ─── OS ────────────────────────────────────────────────────────
 .DS_Store
 .DS_Store?
 ._*
@@ -75,12 +62,10 @@ ehthumbs.db
 Thumbs.db
 desktop.ini
 
-# ─── Logs ──────────────────────────────────────────────────────
 *.log
 logs/
 *.log.*
 
-# ─── Testing ───────────────────────────────────────────────────
 .pytest_cache/
 .coverage
 htmlcov/
@@ -88,10 +73,6 @@ htmlcov/
 coverage.xml
 *.cover
 
-# ─── Migrations (keep folder, ignore auto-generated) ───────────
-# backend/migrations/versions/  ← keep this tracked
-
-# ─── Misc ──────────────────────────────────────────────────────
 *.bak
 *.tmp
 *.temp
